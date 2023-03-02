@@ -1,0 +1,41 @@
+
+.group{
+    font-family:  var(--font);
+    font-size: 15px;
+
+}
+.hour{
+
+    font-family:  var(--font);
+    font-size: 15px;
+
+
+}
+.img{
+    border-radius: 10px;
+    width: 280px;
+    height: 260px;
+}
+.headerCard{
+
+
+    line-height: 26px;
+    display: flex;
+    justify-content: start;
+    color: #3c3d46;
+    margin-top: 10px;
+    font-family: raleway_f,sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+.price{
+
+    display: flex;
+    justify-content: start;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 15px;
+    font-family: 'Cairo', sans-serif;
+}

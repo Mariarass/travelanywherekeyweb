@@ -1,0 +1,75 @@
+.language {
+    width: 20px;
+    margin-right: 5px;
+
+
+}
+
+.navBarContainer {
+
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.menuBar {
+    display: none;
+
+}
+
+.logo {
+
+    width: 50px;
+
+
+}
+
+@keyframes rotate {
+    0% {
+        transform:rotate(0deg);
+    }
+    25% {
+      transform:rotate(30deg);
+    }
+
+    75% {
+       transform:rotate(-30deg);
+    }
+    100% {
+      transform:rotate(0deg);
+    }
+
+
+
+}
+
+@media (max-width: 650px) {
+    .menuBar {
+        display: flex;
+
+    }
+
+    .navBar {
+        display: none;
+    }
+
+    .navLink {
+        display: none;
+    }
+
+    .navBarContainer {
+        gap: 10px;
+        padding-right: 13px;
+    }
+
+
+}

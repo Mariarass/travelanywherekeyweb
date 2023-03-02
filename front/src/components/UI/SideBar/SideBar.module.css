@@ -1,0 +1,16 @@
+.container{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+.containerLink{
+    background-color: #fff;
+
+}
+.link{
+    text-decoration: none;
+    margin: 5px;
+}

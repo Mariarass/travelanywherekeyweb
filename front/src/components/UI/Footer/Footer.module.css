@@ -1,0 +1,25 @@
+.link {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.footer {
+
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    padding:40px;
+}
+.social{
+    margin: 10px;
+}
+.nav{
+    margin: 10px;
+}
+.logo{
+    width: 50px;
+}

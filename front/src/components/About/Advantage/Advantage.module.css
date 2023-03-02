@@ -1,0 +1,41 @@
+.container{
+    min-height:500px;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.containerAdvantage{
+    width:80%;
+
+    margin: 0 auto;
+}
+.advantages{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.containerDescription{
+
+    width:200px;
+    height:200px;
+    text-align: center;
+    padding-top: 20px;
+}
+.img{
+
+    width: 100px;
+    height: 100px;
+}
+.header{
+    font-size: 30px;
+    margin-bottom: 30px;
+
+
+}
+

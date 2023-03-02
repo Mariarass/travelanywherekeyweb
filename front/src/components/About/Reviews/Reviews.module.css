@@ -1,0 +1,66 @@
+.headerCard {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ff5f2b;
+    margin-bottom: 20px;
+
+
+}
+
+.grade {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.description {
+    height: 280px;
+
+    overflow-y: auto;
+}
+
+.container {
+    padding-top: 30px;
+
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.header {
+    font-size: 40px;
+
+}
+.reviews{
+    background-color: #fff;
+    width:500px;
+    height: 400px;
+    padding:20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+@media (max-width: 1020px) {
+    .container {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        gap: 0px;
+    }
+
+
+
+
+}

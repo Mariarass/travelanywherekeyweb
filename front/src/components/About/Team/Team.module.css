@@ -1,0 +1,77 @@
+.container {
+
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.teamContainer {
+    padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1c2033;
+    border-radius: 30px;
+    position: relative;
+    height: 550px;
+    background-image: url('../../../assets/icon.png');
+    background-size: cover;
+
+}
+
+.header {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+
+}
+
+.guideContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    top: 40%;
+    width: 100%;
+
+
+}
+
+.wrapGuide {
+
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1360px ) {
+    .teamContainer {
+        height: 940px;
+    }
+
+    .guideContainer {
+        top: 20%;
+    }
+}
+
+@media (max-width: 890px ) {
+    .teamContainer {
+        height: 1370px;
+    }
+
+    .guideContainer {
+        top: 12%;
+    }
+}
+
+@media (max-width: 500px) {
+    .teamContainer {
+        height: 1250px;
+    }
+
+    .guideContainer {
+        top: 14%;
+    }
+}

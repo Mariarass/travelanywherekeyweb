@@ -1,0 +1,16 @@
+.error{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.progress{
+
+    height: 60vh;
+
+}
+.load{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
